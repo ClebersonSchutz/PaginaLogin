@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/stile.css" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+            <h1><strong>CADASTRO</strong></h1>
+        <fieldset>
+            <legend><strong>Dados Pessoais</strong></legend>
+        <div class="nome">
+            <label><strong>Nome Completo</strong></label><br>
+            <input type="text" id="nome" value=""placeholder="Nome Completo" required>
+        </div>
+        <div class="nascimento">
+            <label><strong>Data de nascimento</strong></label>
+            <input type="date" id="data" required>
+            <label><strong>Estado Civil</strong></label>
+            <select name="estadocivil" id="estadocivil" required>
+            <option selected disabled value="">Selecione</option>
+            <option>Solteiro</option>
+            <option>Casado</option>
+            <option>Viuvo</option>
+            <option>União Estavel</option>   
+            </select>
+        </div>
+        <div class="sexo">
+            <label><strong>Sexo</strong></label>
+            <label>Masculino</label>
+            <input type="radio" name="sexo" id="masculino" value="">
+            <label>Feminino</label>
+            <input type="radio" name="sexo" id="Feminino" value="">
+            <label>Não Binario</label>
+            <input type="radio" name="sexo" id="naobinario" value="">
+            <label>Prefiro não declarar</label>
+            <input type="radio" name="sexo" id="prefironaodeclarar" value="">
+        </div>
+        <div class="filhos">
+            <label><strong>Tem filhos</strong></label>
+            <label>Sim</label>
+            <input type="radio" name="filhos" id="sim" value="">
+            <label>Não</label>
+            <input type="radio" name="filhos" id="nao" value="">
+            <label class="quantos filhos"><strong>Quantos filhos</strong></label>
+            <input type="text" name="quantosfilhos" id="quantos" value="">
+        </div>
+        <div class="endereco">
+            <label><strong>Endereço</strong></label><br>
+            <input type="text" name="logradouro" id="logradouro" value="" placeholder="Rua, Av, Travessa" required>
+            <label><strong>Numero</strong></label>
+            <input type="text" name="numero" id="numero" value=""><br>
+            <label><strong>Complemeto</strong></label>
+            <input type="text" name="complemento" id="complemento" value="" placeholder="Casa, Apartamento, Bloco">
+            <label><strong>Cidade</strong></label>
+            <input type="text" name="cidade" id="cidade" value=""><br>
+            <label><strong>Estado</strong></label>
+            <select>
+                <option selected disabled value="">Selecione</option>
+                <option>Acre (AC)</option>
+                <option>Alagoas (AL)</option>
+                <option>Amapá (AP)</option>
+                <option>Amazonas (AM)</option>
+                <option>Bahia (BA)</option>
+                <option>Ceará (CE)</option>
+                <option>Distrito Federal (DF)</option>
+                <option>Espírito Santo (ES)</option>
+                <option>Goiás (GO)</option>
+                <option>Maranhão (MA)</option>
+                <option>Mato Grosso (MT)</option>
+                <option>Mato Grosso do Sul (MS)</option>
+                <option>Minas Gerais (MG)</option>
+                <option>Pará (PA)</option>
+                <option>Paraíba (PB)</option>
+                <option>Paraná (PR)</option>
+                <option>Pernambuco (PE)</option>
+                <option>Piauí (PI)</option>
+                <option>Rio de Janeiro (RJ)</option>
+                <option>Rio Grande do Norte (RN)</option>
+                <option>Rio Grande do Sul (RS)</option>
+                <option>Rondônia (RO)</option>
+                <option>Roraima (RR)</option>
+                <option>Santa Catarina (SC)</option>
+                <option>São Paulo (SP)</option>
+                <option>Sergipe (SE)</option>
+                <option>Tocantins (TO)</option>
+            </select>
+        </div>
+        <div>
+            <input class="button" type="submit" value="Cadastrar">
+        </div>
+        </fieldset>
+        <footer>
+        <strong>Curso FullStack-</strong>
+        <a href="https://b7web.com.br/" target="_blank">B7web</a>
+        <strong>-Professor-</strong> 
+        <a href="https://github.com/bonieky" target="_blank">Bonieky Lacerda</a>
+        <strong>-Aluno-</strong>
+        <a href="https://www.linkedin.com/in/cleberson-schutz/" target="_blank" >Cleberson Schutz</a>
+        </footer>
+    </form>  
+    
+</body> 
+
+</html>
